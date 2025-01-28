@@ -3,7 +3,6 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 import streamlit as st
-from PIL import Image
 
 # Load the pre-trained face detection model
 prototxt_path = "deploy.prototxt"
