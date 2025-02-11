@@ -53,6 +53,6 @@ after 14 epochs the final model achieved the following performance:
 ## Deployment
 Model is Depoloyed on hugging face , check it [here](https://huggingface.co/spaces/Mamdouh-Alaa12/Public-Health-Safety-Initiative-Mask-Detection-System)
 
-##Notes
+## Notes
 - The model was tested locally in real time , you will find the code in model_realtime_test.py , but when deployed we couldn't use real time detection with on platforms like hugging faces ,due to security reasons , so in the deployment environment on hugging face ,  we proceeded with video upload instead of real time detection, the code is found in app.py.
 - when tested locally , we used OpenCv DNN for face detection , which is more accurate than haarcascade , but in the deployed environment , we proceeded with haarcascade for face detection , since it's more ligh weight to work on a cloud platform like hugging face (free plan without GPU).
